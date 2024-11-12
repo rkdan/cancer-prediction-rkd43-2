@@ -5,6 +5,10 @@ description = "A basic model to predict cancerous tumors based on tumor properti
 authors = ["Ryan Daniels <31715811+rkdan@users.noreply.github.com>"]
 license = "GPL-3.0-or-later"
 readme = "README.md"
+packages = [{include = "cancer_prediction"}]
+
+[tool.poetry.scripts]
+cancer-prediction =  "cancer_prediction.cli:app"
 
 [tool.poetry.dependencies]
 python = "^3.12"
