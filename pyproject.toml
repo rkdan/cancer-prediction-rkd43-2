@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cancer-prediction-rkd43-2"
-version = "0.3.0"
+version = "0.3.1"
 description = "A basic model to predict cancerous tumors based on tumor properties."
 authors = ["Ryan Daniels <31715811+rkdan@users.noreply.github.com>"]
 license = "GPL-3.0-or-later"
